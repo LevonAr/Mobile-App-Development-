@@ -28,3 +28,5 @@ function makeFunc()
 
 var myFunc = makeFunc();
 myFunc();
+
+
