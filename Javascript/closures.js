@@ -12,9 +12,11 @@ function init()
 init();
 
 
-function makeFunc() {
+function makeFunc() 
+{
   var name = 'Mozilla';
-  function displayName() {
+  function displayName() 
+  {
     alert(name);
   }
   return displayName;
