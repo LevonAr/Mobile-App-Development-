@@ -1,3 +1,4 @@
+// EX 1 (LEXICAL SCOPING)
 
 function init() 
 {
@@ -11,6 +12,9 @@ function init()
 
 init();
 
+
+
+// EX 2 (CLOSURE)
 
 function makeFunc() 
 {
