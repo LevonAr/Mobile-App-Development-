@@ -29,4 +29,4 @@ function makeFunc()
 var myFunc = makeFunc();
 myFunc();
 
-
+//KEY DIFFERENCES: 1st example calls displayName in the function while the second returns it to a higher scope
