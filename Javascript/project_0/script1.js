@@ -1,3 +1,4 @@
+// Did this just by winging it. The code works and fulfills the requirements, however I'm going to redo it after finishing the second lecture.
 
 const classNames = 
 {
