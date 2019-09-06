@@ -15,3 +15,7 @@ function makeFunctionArray()
 
     return arrObject;
 }
+
+var arr = makeFunctionArray();
+
+arr[0]();
