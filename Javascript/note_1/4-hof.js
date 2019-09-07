@@ -4,3 +4,5 @@ function map(arr, fn)
     
     arr.forEach(function(val)
     {
+        newArr.push(fn(val));        
+    })
