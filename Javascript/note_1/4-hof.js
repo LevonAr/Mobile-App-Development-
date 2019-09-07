@@ -29,3 +29,8 @@ function addOne(num) { return num + 1; }
 
 function filter(arr, fn) {
     const newArr = []
+    
+    arr.forEach(val => {
+      if (fn(val)) newArr.push(val)
+    })
+  
