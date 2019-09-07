@@ -6,3 +6,6 @@ function map(arr, fn)
     {
         newArr.push(fn(val));        
     })
+    
+    return newArr;
+}
