@@ -24,7 +24,8 @@ function addOne(num) { return num + 1; }
     {
         
     })
-}*/
+}
+*/
 
 function filter(arr, fn) {
     const newArr = []
