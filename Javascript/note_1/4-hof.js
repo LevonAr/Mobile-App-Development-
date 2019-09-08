@@ -37,5 +37,3 @@ function filter(arr, fn) {
   }
 
   console.log(filter(x, addOne));
-    
-  
