@@ -13,7 +13,6 @@ function makeFunctionArray()
 
     return arrObject;
 }
-
 const array = makeFunctionArray();
 
 array[0]();
