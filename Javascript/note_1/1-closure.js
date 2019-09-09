@@ -6,4 +6,6 @@ function makeHelloFunction()
   {
     console.log(message);
   }
+  
+  return sayHello;
 }
