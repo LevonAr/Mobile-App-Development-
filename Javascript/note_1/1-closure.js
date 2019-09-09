@@ -9,3 +9,5 @@ function makeHelloFunction()
   
   return sayHello;
 }
+
+const sayHello = makeHelloFunction()
