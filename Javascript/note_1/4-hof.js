@@ -37,3 +37,7 @@ function filter(arr, fn) {
   }
 
   console.log(filter(x, addOne));
+
+function reduce(arr, fn, initialValue)
+{
+}
