@@ -40,4 +40,9 @@ function filter(arr, fn) {
 
 function reduce(arr, fn, initialValue)
 {
+    let returnValue = initialValue
+    
+    arr.forEach( var => {
+                returnValue}
+                
 }
