@@ -12,6 +12,7 @@ function makeHelloFunction()
 
 const sayHello = makeHelloFunction()
 
+// the variable called message is not in scope here
 console.log('typeof message:', typeof message)
 
 console.log(sayHello.toString())
