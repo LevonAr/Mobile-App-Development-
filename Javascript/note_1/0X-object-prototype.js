@@ -6,3 +6,6 @@ function Animal()
     this.isWild = true;
 }
 
+Animal.prototype.hasName = function() {
+
+
