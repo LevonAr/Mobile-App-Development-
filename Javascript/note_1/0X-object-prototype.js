@@ -16,5 +16,6 @@ Animal.prototype.isItWild = function()
     return this.isWild;
 };
 
-
+// Here we create an instance of Animal
+var someAnimal = new Animal();
 
