@@ -11,3 +11,10 @@ Animal.prototype.hasName = function()
     return this.name !== null;
 };
 
+Animal.prototype.isItWild = function() 
+{
+    return this.isWild;
+};
+
+
+
