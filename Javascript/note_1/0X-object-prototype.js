@@ -19,3 +19,5 @@ Animal.prototype.isItWild = function()
 // Here we create an instance of Animal
 var someAnimal = new Animal();
 
+// Let's give it a name
+someAnimal.name = 'Dobby';
