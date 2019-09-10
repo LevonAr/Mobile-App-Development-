@@ -21,3 +21,4 @@ var someAnimal = new Animal();
 
 // Let's give it a name
 someAnimal.name = 'Dobby';
+console.log('Hey there. My pet name is %s', someAnimal.name);
