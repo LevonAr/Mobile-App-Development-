@@ -6,6 +6,8 @@ function Animal()
     this.isWild = true;
 }
 
-Animal.prototype.hasName = function() {
-
+Animal.prototype.hasName = function() 
+{
+    return this.name !== null;
+};
 
