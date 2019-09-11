@@ -29,3 +29,5 @@ function Dog()
     this.genus = 'Canis';
     this.species = 'unknown';
 }
+
+Dog.prototype
