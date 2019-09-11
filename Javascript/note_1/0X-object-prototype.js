@@ -25,5 +25,6 @@ console.log('Hey there. My pet name is %s', someAnimal.name);
 console.log('is it wild? %o', someAnimal.isWild);
 
 function Dog()
-
-
+{
+    
+}
