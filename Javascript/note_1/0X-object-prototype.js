@@ -27,5 +27,5 @@ console.log('is it wild? %o', someAnimal.isWild);
 function Dog()
 {
     this.genus = 'Canis';
-    
+    this.    
 }
