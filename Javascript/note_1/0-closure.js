@@ -4,6 +4,7 @@ function makeFunctionArray()
     
     for(var i=0; i<5; i++)
     {
+        
         arrObject.push(
             function ()
             {
