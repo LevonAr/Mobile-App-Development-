@@ -17,4 +17,3 @@ console.log('typeof message:', typeof message)
 
 // but the function sayHello still references a variable called message
 console.log(sayHello.toString())
-
