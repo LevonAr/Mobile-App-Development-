@@ -11,6 +11,7 @@ function makeFunctionArray()
                 console.log(i);
             })
     }
+    
 
     return arrObject;
 }
