@@ -6,6 +6,7 @@ function makeFunctionArray()
     {
         
         arrObject.push(
+            
             function ()
             {
                 console.log(i);
