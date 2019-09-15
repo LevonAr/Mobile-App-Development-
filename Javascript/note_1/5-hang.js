@@ -1,2 +1,2 @@
 // this function will freeze a browser page if run in console
-function hang
+function hang(seconds = 5)
