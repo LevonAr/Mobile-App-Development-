@@ -12,7 +12,6 @@ function makeHelloFunction()
   return sayHello;
 }
 
-
 const sayHello = makeHelloFunction()
 
 // the variable called message is not in scope here
