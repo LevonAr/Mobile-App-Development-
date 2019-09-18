@@ -43,5 +43,5 @@ function reduce(arr, fn, initialValue)
     
     arr.forEach( var => {
                 returnValue}
-                
+               
 }
