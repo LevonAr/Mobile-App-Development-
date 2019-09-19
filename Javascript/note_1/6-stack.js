@@ -7,4 +7,4 @@ function getNum() {
 }
 function c() {
   console.log(getNum() + getNum())
-
+}
