@@ -4,3 +4,4 @@ function addOne(num) {
 }
 function getNum() {
   return addOne(10)
+}
