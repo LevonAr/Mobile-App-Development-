@@ -10,7 +10,7 @@ function printTwo()
 
 function printThree() 
 {
-  console.log('three')
+  console.log('three');
 }
 
 setTimeout(printOne, 1000)
