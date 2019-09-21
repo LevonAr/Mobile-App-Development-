@@ -3,5 +3,7 @@ function printOne()
   console.log('one')
 }
 
-function printTwo() {
+function printTwo() 
+{
   console.log('two')
+}
