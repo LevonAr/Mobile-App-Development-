@@ -14,3 +14,5 @@ function printThree()
 }
 
 setTimeout(printOne, 1000)
+setTimeout(printTwo, 0)
+
