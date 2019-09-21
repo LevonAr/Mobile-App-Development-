@@ -7,3 +7,5 @@ function printTwo()
 {
   console.log('two')
 }
+
+function printThree() {
