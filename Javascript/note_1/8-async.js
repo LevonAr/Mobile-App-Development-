@@ -9,3 +9,5 @@ function printTwo()
 }
 
 function printThree() {
+  console.log('three')
+
