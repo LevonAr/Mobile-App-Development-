@@ -8,3 +8,4 @@ function MMAFighter ()
 var LWChamp = new MMAFighter("Khabib Nurmagomedov", 30, "Champ");
 
 function LightWeightFighter ()
+{
