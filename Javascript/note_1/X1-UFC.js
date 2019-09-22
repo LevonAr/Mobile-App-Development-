@@ -12,3 +12,5 @@ function LightWeightFighter ()
     this.weightClass = 155;
     this.divChampion = "Khabib Nurmagomedov";    
 }
+
+function MiddleWeightFighter()
