@@ -16,3 +16,4 @@ function LightWeightFighter ()
 function MiddleWeightFighter()
 {
     this.weightClass = 185;
+    this.divChampion = "Robert Whittaker";
