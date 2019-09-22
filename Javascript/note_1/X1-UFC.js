@@ -14,3 +14,4 @@ function LightWeightFighter ()
 }
 
 function MiddleWeightFighter()
+{
