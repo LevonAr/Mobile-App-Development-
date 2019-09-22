@@ -9,3 +9,4 @@ var LWChamp = new MMAFighter("Khabib Nurmagomedov", 30, "Champ");
 
 function LightWeightFighter ()
 {
+    this.weightClass = 155;
