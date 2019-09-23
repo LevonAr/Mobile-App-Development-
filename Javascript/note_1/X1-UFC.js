@@ -5,6 +5,7 @@ function MMAFighter ()
     this.rank = rank || "unranked";
 }
 
+
 var LWChamp = new MMAFighter("Khabib Nurmagomedov", 30, "Champ");
 
 function LightWeightFighter ()
