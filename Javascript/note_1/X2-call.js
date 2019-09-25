@@ -4,7 +4,8 @@ function Product(name, price)
   this.price = price;
 }
 
-function Food(name, price) {
+function Food(name, price) 
+{
   Product.call(this, name, price);
   this.category = 'food';
 }
