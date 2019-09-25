@@ -10,7 +10,8 @@ function Food(name, price)
   this.category = 'food';
 }
 
-function Toy(name, price) {
+function Toy(name, price) 
+{
   Product.call(this, name, price);
   this.category = 'toy';
 }
