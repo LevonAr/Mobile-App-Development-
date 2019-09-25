@@ -17,3 +17,4 @@ function Toy(name, price)
 }
 
 var cheese = new Food('feta', 5);
+var fun = new Toy('robot', 40);
