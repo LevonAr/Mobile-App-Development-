@@ -15,3 +15,5 @@ function Toy(name, price)
   Product.call(this, name, price);
   this.category = 'toy';
 }
+
+var cheese = new Food('feta', 5);
