@@ -1,1 +1,1 @@
-
+function Product(name, price)
