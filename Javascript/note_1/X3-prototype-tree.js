@@ -13,3 +13,6 @@ Manager.prototype = Object.create(Employee.prototype);
 Manager.prototype.constructor = Manager;
 
 function WorkerBee() {
+  Employee.call(this);
+  this.projects = [];
+}
