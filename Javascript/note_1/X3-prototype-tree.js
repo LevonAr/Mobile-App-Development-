@@ -9,3 +9,5 @@ function Manager() {
 }
 
 Manager.prototype = Object.create(Employee.prototype);
+
+Manager.prototype.constructor = Manager;
