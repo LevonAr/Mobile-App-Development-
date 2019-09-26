@@ -16,3 +16,5 @@ function WorkerBee() {
   Employee.call(this);
   this.projects = [];
 }
+
+WorkerBee.prototype = Object.create(Employee.prototype);
