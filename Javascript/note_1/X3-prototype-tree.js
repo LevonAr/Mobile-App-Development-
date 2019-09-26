@@ -18,3 +18,5 @@ function WorkerBee() {
 }
 
 WorkerBee.prototype = Object.create(Employee.prototype);
+
+WorkerBee.prototype.constructor = WorkerBee;
