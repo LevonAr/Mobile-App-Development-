@@ -35,3 +35,5 @@ function Top5(weightClass){
 }
 
 Top5.prototype.wages = "$100,000+"
+
+Top5.prototype = Object.create(UFC_Fighter.prototype)
