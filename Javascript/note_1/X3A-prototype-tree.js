@@ -27,3 +27,9 @@ let Chad_Mendes = new FeatherWeight
 Chad_Mendes.boss
 
 // "Dana White"
+
+function Top5(weightClass){
+    weightClass.call(this)
+    this.rank = "1-5";
+    this.contract = "elite";
+}
