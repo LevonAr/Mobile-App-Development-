@@ -3,3 +3,8 @@ function UFC_Fighter(){
     this.age = '';
     this.rank = '';
 }
+
+function FeatherWeight(){
+    UFC_Fighter.call(this);
+    this.weight = 145;
+}
