@@ -33,3 +33,5 @@ function Top5(weightClass){
     this.rank = "1-5";
     this.contract = "elite";
 }
+
+Top5.prototype.wages = "$100,000+"
