@@ -5,6 +5,9 @@ function FoodPrototype()
     };
 }
 
-function Food(name){
+function Food(name)
+{
     this.name = name;
 }
+
+Food.prototype = new FoodPrototype();
