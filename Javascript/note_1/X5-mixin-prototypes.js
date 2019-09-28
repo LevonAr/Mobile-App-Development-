@@ -4,3 +4,5 @@ function FoodPrototype()
         console.log("Eating", this.name);
     };
 }
+
+function Food(name)
