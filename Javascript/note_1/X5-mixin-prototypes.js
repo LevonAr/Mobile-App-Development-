@@ -32,3 +32,5 @@ function FoodPlantPrototype()
 {
     FoodPrototype.call(this);
     PlantPrototype.call(this);
+
+    this.harvest = function()
