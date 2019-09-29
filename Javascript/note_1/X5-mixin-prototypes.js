@@ -34,3 +34,6 @@ function FoodPlantPrototype()
     PlantPrototype.call(this);
 
     this.harvest = function()
+    {
+        console.log("harvest at", this.maturity);
+    };
