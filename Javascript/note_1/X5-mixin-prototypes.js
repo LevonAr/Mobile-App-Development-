@@ -29,3 +29,5 @@ function Plant(name)
 Plant.prototype = new PlantPrototype();
 
 function FoodPlantPrototype()
+{
+    FoodPrototype.call(this);
