@@ -38,3 +38,12 @@ function FoodPlantPrototype()
         console.log("harvest at", this.maturity);
     };
 }
+
+function FoodPlant(name, maturity)
+{
+    Food.call(this, name);
+    Plant.call(this, name);
+    this.maturity = maturity; 
+}
+
+FoodPlant.prototype = new FoodPlantPrototype();
