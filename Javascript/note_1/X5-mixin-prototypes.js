@@ -13,3 +13,5 @@ function Food(name)
 Food.prototype = new FoodPrototype();
 
 function PlantPrototype()
+{
+    this.grow = function()
