@@ -15,3 +15,6 @@ Food.prototype = new FoodPrototype();
 function PlantPrototype()
 {
     this.grow = function()
+    {
+        console.log("Growing", this.name);
+    }
