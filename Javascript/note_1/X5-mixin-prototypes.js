@@ -37,3 +37,4 @@ function FoodPlantPrototype()
     {
         console.log("harvest at", this.maturity);
     };
+}
