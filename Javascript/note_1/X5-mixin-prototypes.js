@@ -46,4 +46,5 @@ function FoodPlant(name, maturity)
     this.maturity = maturity; 
 }
 
+
 FoodPlant.prototype = new FoodPlantPrototype();
