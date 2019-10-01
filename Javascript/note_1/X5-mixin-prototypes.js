@@ -30,6 +30,7 @@ function Plant(name)
     this.name = name;
 }
 
+
 Plant.prototype = new PlantPrototype();
 
 function FoodPlantPrototype()
