@@ -23,6 +23,7 @@ function PlantPrototype()
     }
 }
 
+
 function Plant(name)
 {
     this.name = name;
