@@ -45,6 +45,7 @@ function FoodPlantPrototype()
     };
 }
 
+
 function FoodPlant(name, maturity)
 {
     Food.call(this, name);
