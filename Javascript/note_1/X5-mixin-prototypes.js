@@ -11,6 +11,7 @@ function Food(name)
     this.name = name;
 }
 
+
 Food.prototype = new FoodPrototype();
 
 
