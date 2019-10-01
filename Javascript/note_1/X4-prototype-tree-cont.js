@@ -10,6 +10,7 @@ function FeatherWeight(){
     this.weight = 145;
 }
 
+
 FeatherWeight.prototype = Object.create(UFC_Fighter.prototype)
 
 const Frankie_Edgar = new FeatherWeight
