@@ -13,6 +13,7 @@ function FeatherWeight(){
 
 FeatherWeight.prototype = Object.create(UFC_Fighter.prototype)
 
+
 const Frankie_Edgar = new FeatherWeight
 
 UFC_Fighter.prototype.boss = "Dana White"
