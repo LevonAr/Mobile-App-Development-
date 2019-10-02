@@ -7,5 +7,6 @@ function recurse() {
 }
 
 
+
 // this wall cause a stack overflow
 recurse()
