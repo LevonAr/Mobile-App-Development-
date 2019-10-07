@@ -13,6 +13,7 @@ function map(arr, fn)
 
 const x = [0,1,2,3]
 
+
 function addOne(num) { return num + 1; }
 
 //console.log(map(x, addOne));
