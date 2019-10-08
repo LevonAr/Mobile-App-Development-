@@ -13,6 +13,6 @@ function printThree()
   console.log('three');
 }
 
-setTimeout(printOne, 1000)
+setTimeout(printOne, 100)
 setTimeout(printTwo, 0)
 printThree()
