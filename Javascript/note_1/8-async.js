@@ -14,5 +14,5 @@ function printThree()
 }
 
 setTimeout(printOne, 100)
-setTimeout(printTwo, 0)
+setTimeout(printTwo, 90)
 printThree()
