@@ -29,3 +29,4 @@ class JobsSpider(scrapy.Spider):
         employment_type = response.xpath('//p[@class="attrgroup"]/span[2]/b/text()').extract_first()
 
         yield {'URL': url, 'Title': title, 'Address': address, 'Description': description, 'Compensation': compensation,
+               'Employment Type': employment_type}
