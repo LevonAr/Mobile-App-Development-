@@ -22,3 +22,4 @@ class JobsSpider(scrapy.Spider):
     def parse_page(self, response):
         url = response.meta.get('URL')
         title = response.meta.get('Title')
+        address = response.meta.get('Address')
