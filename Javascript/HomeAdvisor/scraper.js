@@ -17,3 +17,8 @@ class JobsSpider(scrapy.Spider):
             address = job.xpath('span[@class="result-meta"]/span[@class="result-hood"]/text()').extract_first("")[2:-1]
             yield Request(absolute_url, callback=self.parse_page,
                           meta={'URL': absolute_url, 'Title': title, 'Address': address})
+
+
+    def parse_page(self, response):
+        url = response.meta.get('URL')
+        title = response.meta.get('Title')
