@@ -23,3 +23,5 @@ class JobsSpider(scrapy.Spider):
         url = response.meta.get('URL')
         title = response.meta.get('Title')
         address = response.meta.get('Address')
+
+        description = "".join(line for line in response.xpath('//*[@id="postingbody"]/text()').extract())
