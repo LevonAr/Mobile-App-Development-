@@ -15,3 +15,14 @@
 		$(document).ready(function() { 
 			
 			$("#fetch").click(function(event){ 
+				$.getJSON('quotes.json', function(emp) { 
+					$('#display').html('<p> Name: ' + emp.name + '</p>'); 
+					$('#display').append('<p>Age : ' + emp.age+ '</p>'); 
+					$('#display').append('<p> Role: ' + emp.role+ '</p>'); 
+					$('#display').append('<p> Company: ' + emp.company+ '</p>'); 
+				}); 
+			}); 
+		}); 
+	</script> 
+</head> 
+	
