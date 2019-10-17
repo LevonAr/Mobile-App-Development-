@@ -1,3 +1,3 @@
 import json
 
-with open('quotes.json') as json_file:
+with open('quotes.json') 
