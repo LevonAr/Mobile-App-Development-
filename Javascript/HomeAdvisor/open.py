@@ -17,3 +17,7 @@ with open(input_file) as json_file:
     data = json.load(json_file)
 
 counter = 0
+desc_dict = {}
+location_dict = {}
+title_dict = {}
+link_dict = {}
