@@ -21,3 +21,12 @@ desc_dict = {}
 location_dict = {}
 title_dict = {}
 link_dict = {}
+
+for i in data:
+    desc_dict[counter] = data[counter]["Description"]
+    location_dict[counter] = data[counter]["Address"]
+    title_dict[counter] = data[counter]["Title"]
+    link_dict[counter] = data[counter]["URL"]
+    counter = counter+1
+
+wb = Workbook() 
