@@ -58,3 +58,30 @@ for i in desc_dict:
     match9 = re.search(pattern9, desc_dict[i])
     match10 = re.search(pattern10, desc_dict[i])
     match11 = re.search(pattern11, desc_dict[i])
+    
+
+    if match1:
+        sheet1.write(i,0,match1.group())
+    elif match2:
+        sheet1.write(i,0,match2.group())
+    elif match3:
+        sheet1.write(i,0,match3.group())
+    elif match4:
+        sheet1.write(i,0,match4.group())
+    elif match5:
+        sheet1.write(i,0,match5.group())  
+    elif match6:
+        sheet1.write(i,0,match6.group()) 
+    elif match7:
+        sheet1.write(i,0,match7.group())  
+    elif match8:
+        sheet1.write(i,0,match8.group())
+    elif match9:
+        sheet1.write(i,0,match9.group())
+    elif match10:
+        sheet1.write(i,0,match10.group())
+    elif match11:
+        sheet1.write(i,0,match11.group())     
+    else:
+        sheet1.write(i,0,"phone number not found") 
+        
