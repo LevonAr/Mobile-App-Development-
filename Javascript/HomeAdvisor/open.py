@@ -85,3 +85,5 @@ for i in desc_dict:
     else:
         sheet1.write(i,0,"phone number not found") 
         
+    sheet1.write(i,1,location_dict[i])
+        
