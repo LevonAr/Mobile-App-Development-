@@ -86,4 +86,5 @@ for i in desc_dict:
         sheet1.write(i,0,"phone number not found") 
         
     sheet1.write(i,1,location_dict[i])
-        
+    sheet1.write(i,2,title_dict[i])
+
