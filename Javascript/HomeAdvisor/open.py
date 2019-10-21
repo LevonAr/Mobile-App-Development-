@@ -88,4 +88,6 @@ for i in desc_dict:
     sheet1.write(i,1,location_dict[i])
     sheet1.write(i,2,title_dict[i])
     sheet1.write(i,3,link_dict[i])
+    
+wb.save(output_file) 
 
