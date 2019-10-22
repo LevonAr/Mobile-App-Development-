@@ -9,3 +9,5 @@ db = SQL("sqlite:///lecture.db")
 rows = db.execute("SELECT * FROM Album WHERE Title = :t", t=sys.argv[1])
 
 # For each album in database
+
+for row in rows:
