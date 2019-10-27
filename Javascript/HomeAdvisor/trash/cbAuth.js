@@ -16,6 +16,9 @@ function login(req, res, callback)
             {
                 if (err) return callback(err)
                 user.token = token
+                user.save((err)=> {
+          if (err) return callback(err)
+          res.json({token})
             }    
         }
     }
