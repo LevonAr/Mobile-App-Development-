@@ -14,6 +14,7 @@ function login(req, res, callback)
             
             jwt.sign(payload, config.secret, {}, function(err, token)
             {
+                if (err) return callback(err)
             }    
         }
     }
