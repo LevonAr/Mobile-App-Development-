@@ -8,6 +8,9 @@ function login(req, res, callback)
         {
             if (err) return callback(err)
             if (!isMatch) return res.status(401).send('Incorrect password')
+            
+            // add relevant data to token
+            const payload = {id: user._id, email: user.email}
         }
     }
 }
