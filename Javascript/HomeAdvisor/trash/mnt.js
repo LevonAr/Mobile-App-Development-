@@ -14,3 +14,7 @@ class Counter extends Component {
   incrementCount = () => {
     this.setState(prevState => ({count: prevState.count + 1}))
   }
+  
+  render() {
+    return <Text>{this.state.count}</Text>
+  }
