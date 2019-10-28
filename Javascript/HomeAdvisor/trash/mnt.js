@@ -10,4 +10,7 @@ class Counter extends Component {
   componentDidMount() {
     this.timer = setInterval(this.incrementCount, 1000)
   }
-  
+
+  incrementCount = () => {
+    this.setState(prevState => ({count: prevState.count + 1}))
+  }
