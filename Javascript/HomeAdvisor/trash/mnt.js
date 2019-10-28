@@ -18,3 +18,4 @@ class Counter extends Component {
   render() {
     return <Text>{this.state.count}</Text>
   }
+}
