@@ -4,3 +4,5 @@ import { Constants } from 'expo';
 
 class Counter extends Component {
   state = {
+    count: 0,
+  }
