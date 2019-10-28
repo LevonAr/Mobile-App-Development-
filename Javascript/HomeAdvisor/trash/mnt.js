@@ -26,3 +26,6 @@ export default class App extends Component {
       <View style={styles.container}>
         <Counter />
       </View>
+    );
+  }
+}
