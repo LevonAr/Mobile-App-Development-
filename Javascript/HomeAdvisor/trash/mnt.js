@@ -19,3 +19,5 @@ class Counter extends Component {
     return <Text>{this.state.count}</Text>
   }
 }
+
+export default class App extends Component {
