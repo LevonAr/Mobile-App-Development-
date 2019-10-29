@@ -6,3 +6,4 @@ async function login(req, res, callback) {
     if (!isMatch) return res.status(401).send('Incorrect password')
     
     const payload = {id: user._id, email: user.email}
+    const token = await jwt.sign(payload, config.secret, {})
