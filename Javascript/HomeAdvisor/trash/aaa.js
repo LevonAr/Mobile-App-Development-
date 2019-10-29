@@ -7,3 +7,6 @@ async function login(req, res, callback) {
     
     const payload = {id: user._id, email: user.email}
     const token = await jwt.sign(payload, config.secret, {})
+
+    user.token = token
+    
