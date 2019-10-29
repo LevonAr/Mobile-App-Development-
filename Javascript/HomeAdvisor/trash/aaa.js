@@ -9,4 +9,6 @@ async function login(req, res, callback) {
     const token = await jwt.sign(payload, config.secret, {})
 
     user.token = token
+    const success = await user.save()
+    
     
