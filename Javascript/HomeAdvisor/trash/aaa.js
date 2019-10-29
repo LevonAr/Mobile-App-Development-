@@ -10,5 +10,7 @@ async function login(req, res, callback) {
 
     user.token = token
     const success = await user.save()
+
+    res.json({token})
     
     
