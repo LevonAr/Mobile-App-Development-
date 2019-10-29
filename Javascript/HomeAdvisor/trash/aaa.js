@@ -4,4 +4,5 @@ async function login(req, res, callback) {
     const isMatch = await user.comparePassword(req.body.password)
     
     if (!isMatch) return res.status(401).send('Incorrect password')
+    
     const payload = {id: user._id, email: user.email}
