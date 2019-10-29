@@ -12,5 +12,8 @@ async function login(req, res, callback) {
     const success = await user.save()
 
     res.json({token})
-    
+  } catch (err) {
+    callback(err)
+  }
+}    
     
