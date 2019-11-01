@@ -9,4 +9,4 @@ class JobsSpider(scrapy.Spider):
     
     def parse(self, response):
         titles = response.xpath('//div[@class="title"]/a/text()').extract()
-    
+        print(titles)    
