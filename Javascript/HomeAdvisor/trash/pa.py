@@ -5,3 +5,4 @@ from scrapy import Request
 class JobsSpider(scrapy.Spider):
     name = "titles"
     allowed_domains = ["imdb.com"]
+    start_urls = ["https://www.imdb.com/"]
