@@ -16,3 +16,5 @@ function getUserFromDatabase(callback) {
 function greetUser(user) {
   console.log('Hi, ' + user.firstName)
 }
+
+getUserFromDatabase(greetUser)
