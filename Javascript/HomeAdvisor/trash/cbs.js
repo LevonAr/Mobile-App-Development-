@@ -12,3 +12,5 @@ doSomethingWithOneAsync(console.log)
 
 function getUserFromDatabase(callback) {
     setTimeout(() => callback({firstName: 'Jordan', lastName: 'Hayashi'}), 1000)
+
+function greetUser(user) {
