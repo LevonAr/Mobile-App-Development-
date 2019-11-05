@@ -14,3 +14,4 @@ function getUserFromDatabase(callback) {
     setTimeout(() => callback({firstName: 'Jordan', lastName: 'Hayashi'}), 1000)
 
 function greetUser(user) {
+  console.log('Hi, ' + user.firstName)
