@@ -3,3 +3,5 @@ function doSomethingWithOne(callback) {
 }
 
 doSomethingWithOne(console.log)
+
+function doSomethingWithOneAsync(callback) {
