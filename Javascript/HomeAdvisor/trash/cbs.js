@@ -11,3 +11,4 @@ function doSomethingWithOneAsync(callback) {
 doSomethingWithOneAsync(console.log)
 
 function getUserFromDatabase(callback) {
+    setTimeout(()
