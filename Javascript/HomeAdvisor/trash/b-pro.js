@@ -6,3 +6,4 @@ fetch(url)
   })
   .then(function(json) {
     return ({
+      importantData: json.importantData,
