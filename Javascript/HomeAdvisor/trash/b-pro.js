@@ -8,3 +8,4 @@ fetch(url)
     return ({
       importantData: json.importantData,
     })
+  })
