@@ -9,3 +9,4 @@ fetch(url)
       importantData: json.importantData,
     })
   })
+  .then(function(data) {
