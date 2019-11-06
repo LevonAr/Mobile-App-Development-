@@ -13,3 +13,4 @@ fetch(url)
     console.log(data)  
   })
   .catch(function(err) {
+  })
