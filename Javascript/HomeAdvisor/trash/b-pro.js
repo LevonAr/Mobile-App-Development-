@@ -10,3 +10,5 @@ fetch(url)
     })
   })
   .then(function(data) {
+    console.log(data)  
+  })
