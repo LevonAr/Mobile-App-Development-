@@ -20,3 +20,5 @@ function filter(arr, fn) {
   arr.forEach(val => {
     if (fn(val)) newArr.push(val)
   })
+  return newArr
+}
