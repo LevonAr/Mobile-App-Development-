@@ -1,6 +1,9 @@
 function map(arr, fn) {
-const newArr = []
+  const newArr = []
 
   arr.forEach(function(val) {
     newArr.push(fn(val))
   })
+
+  return newArr
+}
