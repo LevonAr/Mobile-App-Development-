@@ -15,3 +15,5 @@ const x = [0,1,2,3]
 console.log(map(x, addOne))
 
 function filter(arr, fn) {
+
+  const newArr = []
