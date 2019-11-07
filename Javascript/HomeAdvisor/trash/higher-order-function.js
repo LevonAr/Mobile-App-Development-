@@ -9,3 +9,5 @@ function map(arr, fn) {
 }
 
 function addOne(num) { return num + 1 }
+
+const x = [0,1,2,3]
