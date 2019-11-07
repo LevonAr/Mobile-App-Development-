@@ -7,3 +7,5 @@ function map(arr, fn) {
 
   return newArr
 }
+
+function addOne(num) { return num + 1 }
