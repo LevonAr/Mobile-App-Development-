@@ -18,3 +18,5 @@ function filter(arr, fn) {
 
   const newArr = []
   arr.forEach(val => {
+    if (fn(val)) newArr.push(val)
+  })
