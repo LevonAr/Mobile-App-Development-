@@ -17,3 +17,4 @@ console.log(map(x, addOne))
 function filter(arr, fn) {
 
   const newArr = []
+  arr.forEach(val => {
