@@ -3,4 +3,4 @@ function login(req, res, callback) {
     if (err) return callback(err)
 
     user.comparePassword(req.body.password, (err, isMatch) => {
-    
+      if (err) return callback(err)
