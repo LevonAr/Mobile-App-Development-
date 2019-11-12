@@ -5,3 +5,5 @@ function login(req, res, callback) {
     user.comparePassword(req.body.password, (err, isMatch) => {
       if (err) return callback(err)
       if (!isMatch) return res.status(401).send('Incorrect password')
+
+      const payload = {id: user._id, email: user.email}
