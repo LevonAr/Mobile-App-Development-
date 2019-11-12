@@ -7,3 +7,6 @@ function login(req, res, callback) {
       if (!isMatch) return res.status(401).send('Incorrect password')
 
       const payload = {id: user._id, email: user.email}
+
+      jwt.sign(payload, config.secret, {}, function(err, token) {
+        if (err) return callback(err)      
