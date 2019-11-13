@@ -3,3 +3,4 @@ function login(req, res, callback) {
     .then(function(user) {
       return user.comparePassword(req.body.password)
     })
+    .then(function(isMatch) {
