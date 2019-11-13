@@ -8,3 +8,4 @@ function login(req, res, callback) {
         res.status(401).send('Incorrect password')
         throw {earlyExit: true}
       }
+      const payload = {id: user._id, email: user.email}
