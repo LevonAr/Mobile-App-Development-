@@ -5,3 +5,4 @@ function login(req, res, callback) {
     })
     .then(function(isMatch) {
       if (!isMatch) {
+        res.status(401).send('Incorrect password')
