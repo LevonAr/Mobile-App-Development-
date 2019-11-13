@@ -7,3 +7,4 @@ function login(req, res, callback) {
       if (!isMatch) {
         res.status(401).send('Incorrect password')
         throw {earlyExit: true}
+      }
