@@ -24,3 +24,5 @@ console.log('Message no. 5: Sync');
 // Message no. 2: setTimeout
 // Message no. 3: 1st Promise
 // Message no. 4: 2nd Promise
+
+//correct
