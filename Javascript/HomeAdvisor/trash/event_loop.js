@@ -15,3 +15,5 @@ promise.then(function(resolve) {
 promise.then(function(resolve) {
    console.log('Message no. 3: 1st Promise');
 })
+
+console.log('Message no. 5: Sync');
