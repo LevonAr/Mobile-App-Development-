@@ -18,14 +18,14 @@ promise.then(function(resolve) {
 
 console.log('Message no. 5: Sync');
 
-//not:
+//not correct:
 // Message no. 1: Sync
 // Message no. 5: Sync
 // Message no. 2: setTimeout
 // Message no. 3: 1st Promise
 // Message no. 4: 2nd Promise
 
-//correct
+//correct:
 // Message no. 1: Sync
 // Message no. 5: Sync
 // Message no. 3: 1st Promise
