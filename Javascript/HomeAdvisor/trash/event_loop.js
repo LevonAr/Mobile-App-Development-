@@ -17,3 +17,5 @@ promise.then(function(resolve) {
 })
 
 console.log('Message no. 5: Sync');
+
+//not:
