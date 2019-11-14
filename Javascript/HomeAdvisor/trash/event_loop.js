@@ -26,3 +26,8 @@ console.log('Message no. 5: Sync');
 // Message no. 4: 2nd Promise
 
 //correct
+// Message no. 1: Sync
+// Message no. 5: Sync
+// Message no. 3: 1st Promise
+// Message no. 4: 2nd Promise
+// Message no. 2: setTimeout
