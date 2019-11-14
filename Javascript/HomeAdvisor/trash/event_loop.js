@@ -11,3 +11,7 @@ var promise = new Promise(function(resolve, reject) {
 promise.then(function(resolve) {
    console.log('Message no. 3: 1st Promise');
 })
+
+promise.then(function(resolve) {
+   console.log('Message no. 3: 1st Promise');
+})
