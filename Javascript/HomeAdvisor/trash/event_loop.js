@@ -7,3 +7,7 @@ setTimeout(function() {
 var promise = new Promise(function(resolve, reject) {
    resolve();
 });
+
+promise.then(function(resolve) {
+   console.log('Message no. 3: 1st Promise');
+})
